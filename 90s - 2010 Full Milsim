@@ -497,7 +497,7 @@ force ace_overheating_overheatingRateOfFire = true;
 ace_overheating_particleEffectsAndDispersionDistance = 3000;
 ace_overheating_showParticleEffects = true;
 ace_overheating_showParticleEffectsForEveryone = false;
-force ace_overheating_suppressorCoef = 1;
+force ace_overheating_suppressorCoef = 0.25;
 force ace_overheating_unJamFailChance = 0.1;
 force ace_overheating_unJamOnreload = false;
 force ace_overheating_unJamOnSwapBarrel = false;
@@ -594,9 +594,9 @@ force RECOIL_AI_commandingMax_on = 1;
 force RECOIL_AI_commandingMin_on = 1;
 force RECOIL_AI_courageMax_on = 1;
 force RECOIL_AI_courageMin_on = 1;
-RECOIL_AI_deviation = 0;
-RECOIL_AI_deviationDistance = 0;
-RECOIL_AI_deviationVisibility = 0;
+force RECOIL_AI_deviation = 0;
+force RECOIL_AI_deviationDistance = 0;
+force RECOIL_AI_deviationVisibility = 0;
 force RECOIL_AI_enduranceMax_on = 1;
 force RECOIL_AI_enduranceMin_on = 1;
 force RECOIL_AI_generalMax_on = 1;
@@ -636,7 +636,7 @@ force ABS_NoAutoUnflipPlayer = false;
 ABS_perFrameKey = true;
 
 // Armor Plates System
-diw_armor_plates_compat_ace_vehicle_damage_preventScriptedDeath = false;
+force diw_armor_plates_compat_ace_vehicle_damage_preventScriptedDeath = false;
 force diw_armor_plates_main_AIchancePlateInInventory = 0.2;
 force diw_armor_plates_main_AIchancePlateInInventoryMaxNo = 0;
 force diw_armor_plates_main_AIchancePlateInVest = 0.4;
@@ -649,8 +649,8 @@ force diw_armor_plates_main_disallowFriendfire = false;
 force diw_armor_plates_main_enable = true;
 diw_armor_plates_main_headBobStrength = 1;
 diw_armor_plates_main_hideUiSeconds = 5;
-diw_armor_plates_main_ignoreArmorbackblast = false;
-diw_armor_plates_main_ignoreArmorburn = false;
+force diw_armor_plates_main_ignoreArmorbackblast = false;
+force diw_armor_plates_main_ignoreArmorburn = false;
 force diw_armor_plates_main_maxPlateHealth = 15;
 force diw_armor_plates_main_numWearablePlates = 1;
 diw_armor_plates_main_plateColor = [0.35,0.35,1,0.8];
@@ -840,8 +840,8 @@ force PDT_ENVG_Effect = "mwEffect";
 
 // FPV Settings
 FPV_DefaultText = "CROCUS";
-FPV_isUavCaptive = true;
-FPV_MaxFlightDistance = 1500;
+force FPV_isUavCaptive = true;
+force FPV_MaxFlightDistance = 1500;
 
 // Hide Among The Grass
 force hatg_setting_building = true;
@@ -1042,7 +1042,7 @@ force kat_circulation_AdvRhythm_Hardcore_Enable = false;
 force kat_circulation_AdvRhythm_hardcoreDeteriorationChance = 10;
 force kat_circulation_AdvRhythm_HTHold = false;
 force kat_circulation_AdvRhythm_PEAChance = 50;
-kat_circulation_AdvRhythm_PEAEnabled = false;
+force kat_circulation_AdvRhythm_PEAEnabled = false;
 force kat_circulation_AdvRhythm_VTChance = 50;
 force kat_circulation_AED_duringCpr = true;
 force kat_circulation_AED_MaxChance = 80;
@@ -1151,14 +1151,14 @@ force kat_misc_tourniquetEffects_PositiveMultiplier = 1;
 force kat_misc_treatmentTimeDetachTourniquet = 7;
 
 // KAT - ADV Medical: Ophthalmology
-kat_ophthalmology_enable = false;
-kat_ophthalmology_eyeshield_medic_required = 0;
-kat_ophthalmology_eyeshield_treatment_time = 2;
-kat_ophthalmology_eyewash_medic_required = 0;
-kat_ophthalmology_eyewash_treatment_time = 2;
-kat_ophthalmology_probability_dust = 5;
-kat_ophthalmology_probability_dust_heavy = 1;
-kat_ophthalmology_probability_treatment_dust = 20;
+force kat_ophthalmology_enable = false;
+force kat_ophthalmology_eyeshield_medic_required = 0;
+force kat_ophthalmology_eyeshield_treatment_time = 2;
+force kat_ophthalmology_eyewash_medic_required = 0;
+force kat_ophthalmology_eyewash_treatment_time = 2;
+force kat_ophthalmology_probability_dust = 5;
+force kat_ophthalmology_probability_dust_heavy = 1;
+force kat_ophthalmology_probability_treatment_dust = 20;
 
 // KAT - ADV Medical: Pharmacy
 force kat_pharma_allowStackScript_EACA = true;
