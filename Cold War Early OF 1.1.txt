@@ -497,7 +497,7 @@ force ace_overheating_overheatingRateOfFire = true;
 ace_overheating_particleEffectsAndDispersionDistance = 3000;
 ace_overheating_showParticleEffects = true;
 ace_overheating_showParticleEffectsForEveryone = false;
-force ace_overheating_suppressorCoef = 1;
+force ace_overheating_suppressorCoef = 0.25;
 force ace_overheating_unJamFailChance = 0.1;
 force ace_overheating_unJamOnreload = false;
 force ace_overheating_unJamOnSwapBarrel = false;
@@ -583,49 +583,49 @@ AR_DefaultAnimationPlayed_Bolt = "ARMA_AlternativeRun_WW2Style";
 AR_DefaultAnimationPlayed_MG = "ARMA_AlternativeRunLowered";
 
 // Animated recoil coefficient changer
-RECOIL_accumulative_on = 1.02;
-RECOIL_AI_aimingAccuracyMax_on = 1;
-RECOIL_AI_aimingAccuracyMin_on = 1;
-RECOIL_AI_aimingShakeMax_on = 1;
-RECOIL_AI_aimingShakeMin_on = 1;
-RECOIL_AI_aimingSpeedMax_on = 1;
-RECOIL_AI_aimingSpeedMin_on = 1;
-RECOIL_AI_commandingMax_on = 1;
-RECOIL_AI_commandingMin_on = 1;
-RECOIL_AI_courageMax_on = 1;
-RECOIL_AI_courageMin_on = 1;
-RECOIL_AI_deviation = 0;
-RECOIL_AI_deviationDistance = 0;
-RECOIL_AI_deviationVisibility = 0;
-RECOIL_AI_enduranceMax_on = 1;
-RECOIL_AI_enduranceMin_on = 1;
-RECOIL_AI_generalMax_on = 1;
-RECOIL_AI_generalMin_on = 1;
-RECOIL_AI_on = true;
-RECOIL_AI_reloadSpeedMax_on = 1;
-RECOIL_AI_reloadSpeedMin_on = 1;
-RECOIL_AI_skill_on = true;
-RECOIL_AI_skilladd_on = true;
-RECOIL_AI_spotDistanceMax_on = 1;
-RECOIL_AI_spotDistanceMin_on = 1;
-RECOIL_AI_spotTimeMax_on = 1;
-RECOIL_AI_spotTimeMin_on = 1;
-RECOIL_force_on = 50;
-RECOIL_handgun_on = true;
-RECOIL_incrase_on = 1.2;
-RECOIL_limit_on = 1.8;
-RECOIL_loop_on = true;
-RECOIL_negative_on = 2;
-RECOIL_new_on = true;
-RECOIL_random_on = true;
-RECOIL_randomMax_on = 1.4;
-RECOIL_randomMid_on = 1.1;
-RECOIL_randomMin_on = -1;
-RECOIL_Smooth_on = true;
-RECOIL_variety_on = true;
-RECOIL_varietyC_on = 1;
-RECOIL_varietyCk_on = 2;
-SWAY_incrase_on = 1;
+force RECOIL_accumulative_on = 1.02;
+force RECOIL_AI_aimingAccuracyMax_on = 1;
+force RECOIL_AI_aimingAccuracyMin_on = 1;
+force RECOIL_AI_aimingShakeMax_on = 1;
+force RECOIL_AI_aimingShakeMin_on = 1;
+force RECOIL_AI_aimingSpeedMax_on = 1;
+force RECOIL_AI_aimingSpeedMin_on = 1;
+force RECOIL_AI_commandingMax_on = 1;
+force RECOIL_AI_commandingMin_on = 1;
+force RECOIL_AI_courageMax_on = 1;
+force RECOIL_AI_courageMin_on = 1;
+force RECOIL_AI_deviation = 0;
+force RECOIL_AI_deviationDistance = 0;
+force RECOIL_AI_deviationVisibility = 0;
+force RECOIL_AI_enduranceMax_on = 1;
+force RECOIL_AI_enduranceMin_on = 1;
+force RECOIL_AI_generalMax_on = 1;
+force RECOIL_AI_generalMin_on = 1;
+force RECOIL_AI_on = true;
+force RECOIL_AI_reloadSpeedMax_on = 1;
+force RECOIL_AI_reloadSpeedMin_on = 1;
+force RECOIL_AI_skill_on = true;
+force RECOIL_AI_skilladd_on = true;
+force RECOIL_AI_spotDistanceMax_on = 1;
+force RECOIL_AI_spotDistanceMin_on = 1;
+force RECOIL_AI_spotTimeMax_on = 1;
+force RECOIL_AI_spotTimeMin_on = 1;
+force RECOIL_force_on = 50;
+force RECOIL_handgun_on = true;
+force RECOIL_incrase_on = 1.2;
+force RECOIL_limit_on = 1.8;
+force RECOIL_loop_on = true;
+force RECOIL_negative_on = 2;
+force RECOIL_new_on = true;
+force RECOIL_random_on = true;
+force RECOIL_randomMax_on = 1.4;
+force RECOIL_randomMid_on = 1.1;
+force RECOIL_randomMin_on = -1;
+force RECOIL_Smooth_on = true;
+force RECOIL_variety_on = true;
+force RECOIL_varietyC_on = 1;
+force RECOIL_varietyCk_on = 2;
+force SWAY_incrase_on = 1;
 
 // Anti-Bounce System
 force ABS_AssistUnflip = true;
@@ -636,7 +636,7 @@ force ABS_NoAutoUnflipPlayer = false;
 ABS_perFrameKey = true;
 
 // Armor Plates System
-diw_armor_plates_compat_ace_vehicle_damage_preventScriptedDeath = false;
+force diw_armor_plates_compat_ace_vehicle_damage_preventScriptedDeath = false;
 force diw_armor_plates_main_AIchancePlateInInventory = 0.2;
 force diw_armor_plates_main_AIchancePlateInInventoryMaxNo = 0;
 force diw_armor_plates_main_AIchancePlateInVest = 0.4;
@@ -649,8 +649,8 @@ force diw_armor_plates_main_disallowFriendfire = false;
 force diw_armor_plates_main_enable = true;
 diw_armor_plates_main_headBobStrength = 1;
 diw_armor_plates_main_hideUiSeconds = 5;
-diw_armor_plates_main_ignoreArmorbackblast = false;
-diw_armor_plates_main_ignoreArmorburn = false;
+force diw_armor_plates_main_ignoreArmorbackblast = false;
+force diw_armor_plates_main_ignoreArmorburn = false;
 force diw_armor_plates_main_maxPlateHealth = 15;
 force diw_armor_plates_main_numWearablePlates = 1;
 diw_armor_plates_main_plateColor = [0.35,0.35,1,0.8];
@@ -719,7 +719,7 @@ diwako_dui_indicators_range = 20;
 diwako_dui_indicators_range_crew = 300;
 diwako_dui_indicators_range_scale = false;
 force diwako_dui_indicators_rangeLimit = 100;
-diwako_dui_indicators_show = true;
+diwako_dui_indicators_show = false;
 diwako_dui_indicators_size = 1;
 diwako_dui_indicators_style = "standard";
 diwako_dui_indicators_useACENametagsRange = true;
@@ -840,8 +840,8 @@ force PDT_ENVG_Effect = "rfEffect";
 
 // FPV Settings
 FPV_DefaultText = "CROCUS";
-FPV_isUavCaptive = true;
-FPV_MaxFlightDistance = 1500;
+force FPV_isUavCaptive = true;
+force FPV_MaxFlightDistance = 1500;
 
 // Hide Among The Grass
 force hatg_setting_building = true;
@@ -1042,7 +1042,7 @@ force kat_circulation_AdvRhythm_Hardcore_Enable = false;
 force kat_circulation_AdvRhythm_hardcoreDeteriorationChance = 10;
 force kat_circulation_AdvRhythm_HTHold = false;
 force kat_circulation_AdvRhythm_PEAChance = 50;
-kat_circulation_AdvRhythm_PEAEnabled = false;
+force kat_circulation_AdvRhythm_PEAEnabled = false;
 force kat_circulation_AdvRhythm_VTChance = 50;
 force kat_circulation_AED_duringCpr = true;
 force kat_circulation_AED_MaxChance = 80;
@@ -1151,14 +1151,14 @@ force kat_misc_tourniquetEffects_PositiveMultiplier = 1;
 force kat_misc_treatmentTimeDetachTourniquet = 7;
 
 // KAT - ADV Medical: Ophthalmology
-kat_ophthalmology_enable = false;
-kat_ophthalmology_eyeshield_medic_required = 0;
-kat_ophthalmology_eyeshield_treatment_time = 2;
-kat_ophthalmology_eyewash_medic_required = 0;
-kat_ophthalmology_eyewash_treatment_time = 2;
-kat_ophthalmology_probability_dust = 5;
-kat_ophthalmology_probability_dust_heavy = 1;
-kat_ophthalmology_probability_treatment_dust = 20;
+force kat_ophthalmology_enable = false;
+force kat_ophthalmology_eyeshield_medic_required = 0;
+force kat_ophthalmology_eyeshield_treatment_time = 2;
+force kat_ophthalmology_eyewash_medic_required = 0;
+force kat_ophthalmology_eyewash_treatment_time = 2;
+force kat_ophthalmology_probability_dust = 5;
+force kat_ophthalmology_probability_dust_heavy = 1;
+force kat_ophthalmology_probability_treatment_dust = 20;
 
 // KAT - ADV Medical: Pharmacy
 force kat_pharma_allowStackScript_EACA = true;
@@ -1893,7 +1893,7 @@ uk3cb_preferedOptic = 1;
 uk3cb_preferedOpticHighMag = 1;
 
 // USAF
-usaf_afterburner_setting_allow_ai = true;
+force usaf_afterburner_setting_allow_ai = true;
 force USAF_allowNuke = true;
 force usaf_debug_setting_enabled_clients = false;
 force usaf_debug_setting_enabled_server = false;
@@ -1907,7 +1907,7 @@ force usaf_serviceMenu_setting_reloadTime = "2";
 force usaf_serviceMenu_setting_repairTime = "100";
 force usaf_serviceMenu_setting_replaceSources = false;
 force usaf_serviceMenu_setting_selectorSearchRadius = "15";
-usaf_setting_allow_aiFormlights = true;
+force usaf_setting_allow_aiFormlights = true;
 
 // WebKnight HeadLamps
 force WBK_HeadLamps_IsAIActivateHeadlamps = false;
@@ -2263,4 +2263,3 @@ zen_faction_filter_3_UK3CB_ADC_C = true;
 zen_faction_filter_3_UK3CB_CHC_C = true;
 zen_faction_filter_3_UK3CB_MEC_C = true;
 zen_faction_filter_3_UK3CB_TKC_C = true;
-
